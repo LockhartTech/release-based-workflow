@@ -91,7 +91,7 @@ var Starfield = function(speed,opacity,numStars,clear) {
   // If the clear option is set,
   // make the background black instead of transparent
   if(clear) {
-    starCtx.fillStyle = "#FFF";
+    starCtx.fillStyle = "#000";
     starCtx.fillRect(0,0,stars.width,stars.height);
   }
 
